@@ -58,6 +58,65 @@ hr {
 }
 
 .alura-name {
-    background-color: var(--branco);
+    
     padding: 1em;
+}
+
+.lista-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .lista-rodape {
+        display: block;
+    }
+
+    .footer__titulo {
+        font-size: 24px;
+    }
+    
+    .footer__descricao {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .footer__pesquisa {
+        width: 37%;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .lista-rodape__item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .lista-rodape__links {
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: .6em;
+    }
+
+    .lista-rodape__titulo {
+        font-size: 14px;
+       color: var(--cinza-claro);
+    }
+    
+    .alura-name {
+        font-size: 24px;
+        
+    }
 }
