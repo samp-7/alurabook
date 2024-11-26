@@ -1,6 +1,6 @@
 .carrosel__titulo {
     color: var(--laranja);
-    background-color: var(--branco);
+    background-color: var(--base-color);
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;

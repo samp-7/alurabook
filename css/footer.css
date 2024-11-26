@@ -4,24 +4,24 @@
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    background: var(--branco);
+    background: var(--azul-degrade);
     padding: 10px;
 }
 
 .footer__titulo {
-    color: var(--azul);
+    color: var(--branco);
     padding: .5em 10px;
     font-weight: 700;
     font-size: 19px;
 }
 
 .footer__texto {
-    color: var(--azul);
+    color: var(--branco);
     padding: 0 10px;
 }
 
 .footer__pesquisa {
-    background: transparent;
+    /* background: rgba(255, 255, 255, 0.548); */
     border: none;
     border: 2px solid var(--azul);
     border-radius: 50px;
@@ -58,12 +58,13 @@ hr {
 }
 
 .alura-name {
-    
+    color: var(--cinza-claro);
     padding: 1em;
 }
 
 .lista-rodape {
     display: none;
+    margin: 10px 0;
 }
 
 @media screen and (min-width: 1024px) {

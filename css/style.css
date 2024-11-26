@@ -10,12 +10,31 @@
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #002F52 32.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
+    --base-color: #d6d3d3;
     --azul: #002F52;
     --fonte-secundaria: "Josefin Sans";
     --preto: black;
     --cinza: #474646;
     --cinza-claro: #858585;
+    --link-color: #002;
 }
+
+[data-theme="dark"] {
+    --cor-de-fundo:#101425; /* Fundo escuro */
+    --branco: #FFFFFF;  /* Branco suave */
+    --laranja: #ff5722;  /* Laranja mais vibrante */
+    --base-color: #0a1c2a;
+    --azul-degrade: #152646;
+    --fonte-principal: "Poppins";
+    --azul: #1d2c44; /* Azul mais escuro */
+    --fonte-secundaria: "Josefin Sans";
+    --preto: white; 
+    --cinza: #B0B0B0;
+    --cinza-claro: #868686;
+    --link-color: white;
+    
+}
+
 body {
     font-family: var(--fonte-principal);
     font-size: 16px;
@@ -23,3 +42,14 @@ body {
     background-color: var(--cor-de-fundo);
 }
 
+#toggle-theme {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+}

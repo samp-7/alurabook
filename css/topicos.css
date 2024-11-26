@@ -1,12 +1,12 @@
 .topicos {
-    background: var(--azul-degrade);
+    background: var(--base-color);
     text-align: center;
     padding: 1em 0;
 }
 
 .topicos__titulo {
     color: var(--branco);
-    
+    margin: 1em 0;
 }
 
 .topicos__lista {
