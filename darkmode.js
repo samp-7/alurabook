@@ -1,5 +1,5 @@
 let darkmode = localStorage.getItem('darkmode')
-const themeSwitch = document.getElementById('theme-switch')
+const toggleTheme = document.getElementById('toggle-theme')
 
 // adicionar o modo escuro
 
@@ -19,7 +19,7 @@ if(darkmode === "active") enableDarkmode()
 
 // evento click do modo claro
 
-themeSwitch.addEventListener("click", () => {
+toggleTheme.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode')
     darkmode !== "active" ? enableDarkmode() : disableDarkmode()
 })

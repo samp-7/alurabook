@@ -17,6 +17,7 @@
     --cinza: #474646;
     --cinza-claro: #858585;
     --link-color: #002;
+    --preto2: #002;
 }
 
 [data-theme="dark"] {
@@ -32,6 +33,7 @@
     --cinza: #B0B0B0;
     --cinza-claro: #868686;
     --link-color: white;
+    --preto2: lightgray;
     
 }
 
@@ -47,9 +49,25 @@ body {
     width: 50px;
     padding: 0;
     border-radius: 50%;
-    background-color: var(--base-variant); 
+    background-color: var(--preto2);  
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 1em;
+}
+
+#toggle-theme svg {
+    fill: var(--base-color);
+}
+
+#toggle-theme svg:last-child {
+    display: none;
+}
+
+.darkmode #toggle-theme svg:first-child {
+    display: none;
+}
+
+.darkmode #toggle-theme svg:last-child {
+    display: block;
 }

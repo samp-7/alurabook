@@ -6,6 +6,7 @@
     gap: 20px;
     background: var(--azul-degrade);
     padding: 10px;
+    height: 150px;
 }
 
 .footer__titulo {
